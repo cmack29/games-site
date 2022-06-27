@@ -7,5 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cmack",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "block-stream": "^0.0.9",
+    "create-react-app": "^5.0.1",
+    "react-scripts": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmack29/games-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmack29/games-site/issues"
+  },
+  "homepage": "https://github.com/cmack29/games-site#readme",
+  "keywords": []
 }
