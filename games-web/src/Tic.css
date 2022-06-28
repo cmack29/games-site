@@ -1,7 +1,14 @@
 .tic-container {
-    padding-left: 40vw;
-    padding-top: 7vh;
+    padding: 0;
+    margin: 0;
   }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    padding: 0;
+    margin: 0;
+}
   
 .tic-main {
     min-height: 100vh;

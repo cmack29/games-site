@@ -147,7 +147,8 @@ export default function Tictactoe() {
       }
 
     return(
-        <>
+        <> 
+        <h2>Tic Tac Toe</h2>
         <div className="turn">{!winner && displayTurn()}</div>
         <div className="tic-container">
       <div className="col">
@@ -182,9 +183,9 @@ export default function Tictactoe() {
         <span onClick={() => playFn(2, 2)} className="cell">
           {board[2][2]}
         </span>
-      </div>
+      </div> 
     </div>
-    <div className="button-postion">
+   <div className="button-postion">
     {winner && <h2>{displayWinner()}</h2>}
     {winner && (
       <button className="video_game_button" onClick={playAgainFn}>
