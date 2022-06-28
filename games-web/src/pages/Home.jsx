@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router"
+import "../App.css"
 
 export default function Home() {
 
@@ -12,7 +13,7 @@ export default function Home() {
         <>
         <h1>Hello</h1>
         <div>
-        {<button className="" onClick={ticTacToe}>Tic Tac Toe</button>}
+        {<button className="tictactoeButton" onClick={ticTacToe}>Tic Tac Toe</button>}
         </div>
         </>
     )
