@@ -5,10 +5,12 @@ import Tictactoe from './pages/Tictactoe';
 
 function App() {
   return (
+    <>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/tictactoe" element={<Tictactoe />} />
     </Routes>
+    </>
   );
 }
 
