@@ -19,7 +19,7 @@ export default function Home() {
         <div className="home-styling">
             <ul className="grid-container">
             <li>{<button className="tictactoeButton home-button" onClick={ticTacToe}>Tic Tac Toe</button>}</li>
-            <li>{<button className="home-button" onClick={snake}>Snake</button>}</li>
+            <li>{<button className="snakebutton home-button" onClick={snake}>Snake</button>}</li>
             <li><button className="home-button">Lorum Ipsum</button></li>
             <li><button className="home-button">Lorum Ipsum</button></li>
             </ul>
